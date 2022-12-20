@@ -1,0 +1,19 @@
+server:
+  servlet:
+    encoding:
+      force-response: true
+
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasourcE:
+    driver-class:name: com.mysql.cj.jdbc.Driver
+    url: ec2-15-164-166-190.ap-northeast-2.compute.amazonaws.com
+    username: root
+    password: password
+
+jwt:
+  token:
+    secret: hello
