@@ -18,6 +18,7 @@ spring:
     hibernate.naming.physical-strategy : org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     generate-ddl : false
 
+
 jwt:
   token:
     secret: hello
