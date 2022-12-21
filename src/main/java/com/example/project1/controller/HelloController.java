@@ -15,6 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
         public ResponseEntity<String> hello() {
             return ResponseEntity.ok().body("hello");
         }
+
+        @GetMapping("/api/v1/bye")
+        public ResponseEntity<String> bye() {
+            return ResponseEntity.ok().body("bye");
+        }
     }
 
 
